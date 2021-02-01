@@ -1,0 +1,31 @@
+{
+	"mobiles":[
+		{
+			"name":"samsung",
+			"image":"imgs/samsung.jpeg",
+			"price":17000,
+			"offerprice":15000
+		},{
+			"name":"vivo v9",
+			"image":"imgs/vivov9.jpeg",
+			"price":24000,
+			"offerprice":22000
+		},{
+			"name":"Lenovo",
+			"image":"imgs/lenovo.jpeg",
+			"price":10000,
+			"offerprice":9000
+		},{
+			"name":"nokia7.2",
+			"image":"imgs/nokia7.2.jpeg",
+			"price":8000,
+			"offerprice":7000
+		},{
+			"name":"one plus",
+			"image":"imgs/oneplus.jpeg",
+			"price":45000,
+			"offerprice":45000
+		}
+
+	]
+}

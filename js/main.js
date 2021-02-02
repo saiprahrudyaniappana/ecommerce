@@ -55,4 +55,28 @@ function displayData(info){
 
 		//Button parent
         var buttonParent=document.createElement("div");
-        buttonParent.classList.add("d-grid","gap-
+        buttonParent.classList.add("d-grid","gap-2");
+		
+		//Button
+
+		var button=document.createElement("Button");
+		button.classList.add("btn","btn-block","btn-secondary");
+		button.textContent="Add to Cart"
+		buttonParent.append(button)
+		
+		cardBody.append(imageElement)
+		cardBody.append(name)
+		cardBody.append(price)
+		cardBody.append(offerprice)
+		buttonParent.append(button)
+		cardBody.append(buttonParent)
+
+		//cardbody child of card
+		
+		card.append(cardBody);
+		column.append(card);
+
+
+	})
+}
+

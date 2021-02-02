@@ -61,7 +61,7 @@ function displayData(info){
 
 		var button=document.createElement("Button");
 		button.classList.add("btn","btn-block","btn-secondary");
-		button.textContent="Add to Cart"
+		button.textContent="Add to Cart";
 		buttonParent.append(button)
 		
 		cardBody.append(imageElement)

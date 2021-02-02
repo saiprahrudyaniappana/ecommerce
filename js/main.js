@@ -55,6 +55,7 @@ function displayData(info){
 
 		//Button parent
         var buttonParent=document.createElement("div");
+		
         buttonParent.classList.add("d-grid","gap-2");
 		
 		//Button

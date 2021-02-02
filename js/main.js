@@ -1,4 +1,4 @@
-fetch("../data/data.json").then(response=>{
+fetch("https://saiprahrudyaniappana.github.io/ecommerce/data/data.json").then(response=>{
 	return response.json()
 }).then(data=>{
 	displayData(data)
@@ -55,31 +55,4 @@ function displayData(info){
 
 		//Button parent
         var buttonParent=document.createElement("div");
-        buttonParent.classList.add("d-grid","gap-2");
-        
-
-        //Button
-		var button=document.createElement("Button");
-		button.classList.add("btn","btn-block","btn-secondary");
-		button.textContent="Add to Cart"
-		buttonParent.append(button)
-		
-		
-		cardBody.append(imageElement)
-		cardBody.append(name)
-		cardBody.append(price)
-		cardBody.append(offerprice)
-		buttonParent.append(button)
-		cardBody.append(buttonParent)
-
-
-
-		
-
-
-		card.append(cardBody);
-		column.append(card);
-
-
-	})
-}
+        buttonParent.classList.add("d-grid","gap-
